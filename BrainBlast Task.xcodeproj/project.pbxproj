@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E78CCC72D85C74100CD6508 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E78CCC62D85C74100CD6508 /* GameViewModel.swift */; };
+		0E78CCC92D85C75000CD6508 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E78CCC82D85C75000CD6508 /* GameModel.swift */; };
+		0E78CCCB2D85C80300CD6508 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E78CCCA2D85C80300CD6508 /* GameOverView.swift */; };
+		0E78CCCD2D85D4D600CD6508 /* PreGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E78CCCC2D85D4D600CD6508 /* PreGameView.swift */; };
 		0ED4EA842D85A006003A6C08 /* BrainBlast_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4EA832D85A006003A6C08 /* BrainBlast_TaskApp.swift */; };
 		0ED4EA862D85A006003A6C08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4EA852D85A006003A6C08 /* ContentView.swift */; };
 		0ED4EA882D85A009003A6C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED4EA872D85A009003A6C08 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E78CCC62D85C74100CD6508 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		0E78CCC82D85C75000CD6508 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		0E78CCCA2D85C80300CD6508 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		0E78CCCC2D85D4D600CD6508 /* PreGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGameView.swift; sourceTree = "<group>"; };
 		0ED4EA802D85A006003A6C08 /* BrainBlast Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BrainBlast Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED4EA832D85A006003A6C08 /* BrainBlast_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainBlast_TaskApp.swift; sourceTree = "<group>"; };
 		0ED4EA852D85A006003A6C08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +104,10 @@
 			children = (
 				0ED4EA832D85A006003A6C08 /* BrainBlast_TaskApp.swift */,
 				0ED4EA852D85A006003A6C08 /* ContentView.swift */,
+				0E78CCCC2D85D4D600CD6508 /* PreGameView.swift */,
+				0E78CCCA2D85C80300CD6508 /* GameOverView.swift */,
+				0E78CCC62D85C74100CD6508 /* GameViewModel.swift */,
+				0E78CCC82D85C75000CD6508 /* GameModel.swift */,
 				0ED4EA872D85A009003A6C08 /* Assets.xcassets */,
 				0ED4EA892D85A009003A6C08 /* Preview Content */,
 			);
@@ -257,6 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E78CCCB2D85C80300CD6508 /* GameOverView.swift in Sources */,
+				0E78CCC72D85C74100CD6508 /* GameViewModel.swift in Sources */,
+				0E78CCCD2D85D4D600CD6508 /* PreGameView.swift in Sources */,
+				0E78CCC92D85C75000CD6508 /* GameModel.swift in Sources */,
 				0ED4EA862D85A006003A6C08 /* ContentView.swift in Sources */,
 				0ED4EA842D85A006003A6C08 /* BrainBlast_TaskApp.swift in Sources */,
 			);
